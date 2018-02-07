@@ -4,6 +4,7 @@
   "description": "webpack 3 starter kit for web application",
   "main": "app.js",
   "scripts": {
+    "build": "webpack",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/zoltan-kovac/web-app-kit/issues"
   },
-  "homepage": "https://github.com/zoltan-kovac/web-app-kit#readme"
+  "homepage": "https://github.com/zoltan-kovac/web-app-kit#readme",
+  "dependencies": {
+    "loadash": "^1.0.0",
+    "webpack": "^3.10.0"
+  }
 }
