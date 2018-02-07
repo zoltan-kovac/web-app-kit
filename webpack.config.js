@@ -1,11 +1,13 @@
-const path = require('path');
+const {
+    PATH
+} = require('./config.js');
 
 module.exports = {
     entry: {
-        app: './src/app.js'
+        app: `${PATH.DEVELOPMENT}/app.js`
     },
     output: {
         filename: 'app.js',
-        path: path.resolve(__dirname, 'dist')
+        path: PATH.BUILD
     }
 };
