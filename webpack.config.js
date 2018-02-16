@@ -1,6 +1,6 @@
 const {
     PATH
-} = require('./config.js');
+} = require('./app.config.js');
 
 module.exports = {
     entry: {
@@ -8,6 +8,6 @@ module.exports = {
     },
     output: {
         filename: 'app.js',
-        path: PATH.BUILD
+        path: PATH.JS.BUILD
     }
 };
