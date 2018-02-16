@@ -1,9 +1,10 @@
 const path = require('path');
 
-const BUILD = path.resolve(__dirname, 'dist');
+const BUILD = path.resolve(__dirname, '../dist');
 const DEVELOPMENT = './src';
 
 module.exports = {
+    PORT: 3300,
 
     /* Paths */
     PATH: {
