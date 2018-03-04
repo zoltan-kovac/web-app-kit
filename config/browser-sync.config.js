@@ -5,5 +5,8 @@ const {
 
 module.exports = {
     port: PORT,
-    server: [PATH.BUILD]
+    server: PATH.BUILD,
+    files: [
+        `${PATH.BUILD}/css/**/*.css`
+    ]
 };

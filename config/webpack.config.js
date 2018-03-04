@@ -8,6 +8,6 @@ module.exports = {
     },
     output: {
         filename: 'app.js',
-        path: PATH.JS.BUILD
+        path: `${PATH.BUILD}/js`
     }
 };
